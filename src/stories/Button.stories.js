@@ -17,7 +17,7 @@ export default {
     ]
 };
 
-export const Primary = {
+export const PDSButton = {
     args: {
         style: null,
         color: null,
