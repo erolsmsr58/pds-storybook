@@ -1,0 +1,8 @@
+/*
+    This file is for the root styles of the PDS implementation.
+*/
+
+/* This zoom level is needed to make all the elements have the correct size in the storybook canvas */
+#mxapp {
+    zoom: 1.6;
+}

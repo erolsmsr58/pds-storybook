@@ -19,9 +19,10 @@ export default {
 
 export const PDSButton = {
     args: {
+        label: "Click Me!",
         style: null,
         color: null,
         size: null,
-        label: "Click Me!"
+        iconPosition: null
     }
 };
