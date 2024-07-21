@@ -43043,7 +43043,6 @@ a[aria-disabled="true"],
 #mxapp .pds-listview {
     --empty-text-title: "Nothing found";
     --empty-text: null;
-    --empty-image-url: url("");
 }
 #mxapp .pds-listview--remove-empty > ul,
 #mxapp .pds-listview--remove-loadmore > ul,
@@ -43353,7 +43352,6 @@ a[aria-disabled="true"],
 #mxapp .pds-listview--flex-row .mx-listview-empty::before,
 #mxapp .pds-listview .mx-listview-empty::before {
     content: "";
-    background-image: var(--empty-image-url);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

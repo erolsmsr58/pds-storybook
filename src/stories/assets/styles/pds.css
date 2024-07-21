@@ -1,28 +1,28 @@
 /*!v39.1.0*/
 @font-face {
   font-family: "noto-sans";
-  src: local("noto-sans"), url("fonts/noto-sans/noto-sans-400.woff2") format("woff2");
+  src: local("noto-sans"), url("../fonts/noto-sans/noto-sans-400.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "noto-sans";
-  src: local("noto-sans"), url("fonts/noto-sans/noto-sans-400-italic.woff2") format("woff2");
+  src: local("noto-sans"), url("../fonts/noto-sans/noto-sans-400-italic.woff2") format("woff2");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "noto-sans";
-  src: local("noto-sans"), url("fonts/noto-sans/noto-sans-600.woff2") format("woff2");
+  src: local("noto-sans"), url("../fonts/noto-sans/noto-sans-600.woff2") format("woff2");
   font-style: normal;
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "noto-sans";
-  src: local("noto-sans"), url("fonts/noto-sans/noto-sans-600-italic.woff2") format("woff2");
+  src: local("noto-sans"), url("../fonts/noto-sans/noto-sans-600-italic.woff2") format("woff2");
   font-style: italic;
   font-weight: 600;
   font-display: swap;
@@ -33,7 +33,7 @@
   font-weight: 500;
   font-display: swap;
   src: local("Patron Medium"), local("Patron-Medium"),
-    url("fonts/patron/PatronWEB-Medium.woff2") format("woff2");
+    url("../fonts/patron/PatronWEB-Medium.woff2") format("woff2");
 }
 @font-face {
   font-family: "Patron";
@@ -41,24 +41,24 @@
   font-weight: 300;
   font-display: swap;
   src: local("Patron Light"), local("Patron-Light"),
-    url("fonts/patron/PatronWEB-Light.woff2") format("woff2");
+    url("../fonts/patron/PatronWEB-Light.woff2") format("woff2");
 }
 @font-face {
   font-family: "mx-icon";
-  src: url("fonts/mx-icon/mx-icon.woff2?828298") format("woff2"),
-    url("fonts/mx-icon/mx-icon.ttf?828298") format("truetype"),
-    url("fonts/mx-icon/mx-icon.woff?828298") format("woff"),
-    url("fonts/mx-icon/mx-icon.svg?828298#mx-icon") format("svg");
+  src: url("../fonts/mx-icon/mx-icon.woff2?828298") format("woff2"),
+    url("../fonts/mx-icon/mx-icon.ttf?828298") format("truetype"),
+    url("../fonts/mx-icon/mx-icon.woff?828298") format("woff"),
+    url("../fonts/mx-icon/mx-icon.svg?828298#mx-icon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 @font-face {
   font-family: "mx-icon-filled";
-  src: url("fonts/mx-icon-filled/mx-icon-filled.woff2?828298") format("woff2"),
-    url("fonts/mx-icon-filled/mx-icon-filled.ttf?828298") format("truetype"),
-    url("fonts/mx-icon-filled/mx-icon-filled.woff?828298") format("woff"),
-    url("fonts/mx-icon-filled/mx-icon-filled.svg?828298#mx-icon-filled") format("svg");
+  src: url("../fonts/mx-icon-filled/mx-icon-filled.woff2?828298") format("woff2"),
+    url("../fonts/mx-icon-filled/mx-icon-filled.ttf?828298") format("truetype"),
+    url("../fonts/mx-icon-filled/mx-icon-filled.woff?828298") format("woff"),
+    url("../fonts/mx-icon-filled/mx-icon-filled.svg?828298#mx-icon-filled") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -2842,8 +2842,8 @@ a[aria-disabled="true"],
 }
 .mxfeedback-start-button::before {
     content: "";
-    -webkit-mask: url("img/PlatformDesignSystem$Images$mendix_logo_white.svg") no-repeat 50% 50%;
-    mask: url("img/PlatformDesignSystem$Images$mendix_logo_white.svg") no-repeat 50% 50%;
+    -webkit-mask: url("../img/PlatformDesignSystem$Images$mendix_logo_white.svg") no-repeat 50% 50%;
+    mask: url("../img/PlatformDesignSystem$Images$mendix_logo_white.svg") no-repeat 50% 50%;
     -webkit-mask-size: cover;
     mask-size: cover;
     width: 1rem;
@@ -22960,7 +22960,7 @@ a[aria-disabled="true"],
 #mxapp .pds-listview {
     --empty-text-title: "Nothing found";
     --empty-text: null;
-    --empty-image-url: url(images/no-items-found.png);
+    --empty-image-url: url(../images/no-items-found.png);
 }
 #mxapp .pds-listview--remove-empty > ul,
 #mxapp .pds-listview--remove-loadmore > ul,
