@@ -1,17 +1,14 @@
-## PDSStorybook
-[An integration of Storybook for the Platform Design System]
+## PDS Storybook
 
-## Features
-[feature highlights]
+An integration of Storybook for the Platform Design System.
 
 ## Usage
-[step by step instructions]
 
-## Demo project
-[link to sandbox]
+Read more about using [Storybook](https://storybook.js.org/).
 
 ## Issues, suggestions and feature requests
-[link to GitHub issues]
+
+[Github issues page](https://github.com/erolsmsr58/pds-storybook/issues)
 
 ## Development and contribution
 
@@ -20,5 +17,3 @@
     - the widget will be bundled;
     - the bundle will be included in a `dist` folder in the root directory of the project;
     - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
-
-[specify contribution]
