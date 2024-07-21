@@ -1,0 +1,55 @@
+{
+  "name": "pdsstorybook",
+  "widgetName": "PDSStorybook",
+  "version": "1.0.0",
+  "description": "An integration of Storybook for the Platform Design System",
+  "copyright": "© Mendix Technology BV 2024. All rights reserved.",
+  "author": "Erol Simsir <erol.simsir@mendix.com>",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "Mendix EULA",
+  "config": {
+    "projectPath": "/Users/erol.simsir/Documents/Mendix/PlatformDesignSystem-storybook",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
+    "@mendix/pluggable-widgets-tools": "^10.7.1",
+    "@storybook/addon-essentials": "^8.2.5",
+    "@storybook/addon-interactions": "^8.2.5",
+    "@storybook/addon-links": "^8.2.5",
+    "@storybook/addon-onboarding": "^8.2.5",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.4",
+    "@storybook/blocks": "^8.2.5",
+    "@storybook/react": "^8.2.5",
+    "@storybook/react-webpack5": "^8.2.5",
+    "@storybook/test": "^8.2.5",
+    "eslint-plugin-storybook": "^0.8.0",
+    "storybook": "^8.2.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-native": "0.72.7"
+  },
+  "overrides": {
+    "react": "^18.2.0",
+    "react-native": "0.72.7"
+  }
+}
