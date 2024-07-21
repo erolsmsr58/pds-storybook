@@ -3,15 +3,6 @@
 import "../src/stories/assets/styles/pds.css";
 import "../src/stories/assets/styles/theme.compiled.css";
 
-const preview = {
-    parameters: {
-        controls: {
-            matchers: {
-                color: /(background|color)$/i,
-                date: /Date$/i
-            }
-        }
-    }
-};
+const preview = {};
 
 export default preview;
