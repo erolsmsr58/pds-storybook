@@ -2,7 +2,7 @@ import { Button } from "./Button";
 import React from "react";
 
 export default {
-    title: "Example/Button",
+    title: "PDS/Button",
     component: Button,
     parameters: {
         layout: "centered"
